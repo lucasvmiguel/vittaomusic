@@ -59,16 +59,17 @@ Version: 1.0
  * 8. - RESPONSIVE
  * -----------------------------------------------------------------------------
  */
-@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=LouisVittao|Open+Sans&display=swap"); */
 @font-face {
-  font-family: "sas-webfont";
-  src: url("../fonts/sas-webfont.eot?51534236");
-  src: url("../fonts/sas-webfont.eot?51534236#iefix") format("embedded-opentype"), url("../fonts/sas-webfont.woff2?51534236") format("woff2"), url("../fonts/sas-webfont.woff?51534236") format("woff"), url("../fonts/sas-webfont.ttf?51534236") format("truetype"), url("../fonts/sas-webfont.svg?51534236#sas-webfont") format("svg");
+  font-family: "LouisVittao";
+  src: url("../fonts/LouisVittaoFont.ttf?51534236");
+  /* src: url("../fonts/sas-webfont.eot?51534236");
+  src: url("../fonts/sas-webfont.eot?51534236#iefix") format("embedded-opentype"), url("../fonts/sas-webfont.woff2?51534236") format("woff2"), url("../fonts/sas-webfont.woff?51534236") format("woff"), url("../fonts/sas-webfont.ttf?51534236") format("truetype"), url("../fonts/sas-webfont.svg?51534236#sas-webfont") format("svg"); */
   font-weight: normal;
   font-style: normal;
 }
 .sas {
-  font-family: "sas-webfont";
+  font-family: "LouisVittao";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -485,7 +486,7 @@ h4,
 .rs-team-2 .title,
 .rs-team-1 .title,
 h5 {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   margin-top: 10px;
   margin-bottom: 20px;
   font-weight: 400;
@@ -727,7 +728,7 @@ ul li {
 }
 
 .title-heading {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-size: 38px;
   font-weight: 600;
   color: #222;
@@ -743,7 +744,7 @@ ul li {
 }
 
 .font-secondary {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 
 .bgi-cover-center {
@@ -992,7 +993,7 @@ blockquote.quote cite {
   margin: 0;
   text-align: center;
   background-color: transparent;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-style: italic;
   color: #ffffff;
 }
@@ -1025,7 +1026,7 @@ blockquote.quote cite {
   margin: 0;
   text-align: left;
   background-color: transparent;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-style: italic;
   color: #ffffff;
 }
@@ -1216,7 +1217,7 @@ hr.content {
   padding: 13px 40px;
   border: 0;
   min-width: 150px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -1409,7 +1410,7 @@ FEATURE ICON
   top: 0;
   right: 20px;
   font-size: 72px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-weight: 700;
   opacity: 0.15;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
@@ -1510,7 +1511,7 @@ IMAGE BOX
   color: #b3b3b3;
   font-size: 14px;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .rs-shop-box:hover .media {
   border-color: #702963;
@@ -2219,7 +2220,7 @@ CLASSES
 }
 .rs-class-box .title {
   font-size: 18px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   color: #222;
   font-style: italic;
   background-color: #702963;
@@ -2399,7 +2400,7 @@ BOX IMAGE
   -ms-border-radius: 50%;
   border-radius: 50%;
   font-size: 24px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .box-image-6 img {
   width: 80%;
@@ -2794,7 +2795,7 @@ TESTIMONIALS
 .rs-box-testimony .quote-name {
   color: #702963;
   font-size: 24px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .rs-box-testimony .quote-name span {
   font-size: 13px;
@@ -2822,7 +2823,7 @@ TESTIMONIALS
   color: #b3b3b3;
 }
 .rs-experience .position {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .rs-experience .title {
   color: #702963;
@@ -2895,7 +2896,7 @@ BLOG
   /*color: $color-primary;*/
   /*font-style: italic;*/
   font-size: 13px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   margin-bottom: 20px;
 }
 .rs-news-1 .body .meta-date:before {
@@ -3074,7 +3075,7 @@ BOX TEAM
 .rs-team-2 .position {
   color: #702963;
   margin-bottom: 20px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-style: italic;
 }
 .rs-team-2 .position:before, .rs-team-2 .position:after {
@@ -3115,7 +3116,7 @@ BOX TEAM
   font-size: 14px;
   color: #702963;
   margin-bottom: 20px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-style: italic;
 }
 .rs-team-single .overlap-btn {
@@ -3740,7 +3741,7 @@ TESTIMONIAL
 }
 .rs-testimonial-1 .title {
   color: #222;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-weight: 700;
   font-size: 16px;
 }
@@ -3972,7 +3973,7 @@ Back To Top Section
 }
 
 .rs-progress {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-style: italic;
 }
 .rs-progress .name {
@@ -4090,7 +4091,7 @@ Back To Top Section
   border-radius: 0;
   background-color: #000000;
   color: #ffffff;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   background-color: #4d4d4d;
 }
 .nav-pills .nav-link.active {
@@ -4124,7 +4125,7 @@ Back To Top Section
   margin-top: 5px;
   margin-bottom: 5px;
   display: block;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .box-event .body-content {
   width: 100%;
@@ -4244,7 +4245,7 @@ Back To Top Section
 }
 
 .navbar-main {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   -webkit-transition: padding 0.2s ease-in-out;
   transition: padding 0.2s ease-in-out;
 }
@@ -4337,7 +4338,7 @@ Back To Top Section
   /*border-color: $navbar-active-color;*/
 }
 .header-1 .navbar-main .nav-link {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   color: #222;
   font-weight: 700;
   padding: 1.5rem 1rem;
@@ -4579,7 +4580,7 @@ Back To Top Section
   font-size: 72px;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   /*font-weight: 900;*/
   color: #ffffff;
   line-height: 1;
@@ -4958,7 +4959,7 @@ Back To Top Section
   font-size: 21px;
   font-weight: 700;
   color: #702963;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   margin-bottom: 30px;
   position: relative;
 }
@@ -4987,7 +4988,7 @@ Back To Top Section
 .category-nav li {
   list-style: none;
   margin: 0;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .category-nav li a {
   color: #222;
@@ -5022,7 +5023,7 @@ Back To Top Section
   margin-right: 5px;
 }
 .latest-post-item .title {
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
 }
 .latest-post-item .title a {
   color: #000000;
@@ -5557,7 +5558,7 @@ Back To Top Section
   margin-bottom: 0;
   position: relative;
   color: #ffffff;
-  font-family: "Merriweather", serif;
+  font-family: "LouisVittao", serif;
   font-weight: 400;
 }
 .footer .footer-item .footer-title:after {
