@@ -59,12 +59,9 @@ Version: 1.0
  * 8. - RESPONSIVE
  * -----------------------------------------------------------------------------
  */
-/* @import url("https://fonts.googleapis.com/css?family=LouisVittao|Open+Sans&display=swap"); */
 @font-face {
   font-family: "LouisVittao";
-  src: url("../fonts/LouisVittaoFont.ttf?51534236");
-  /* src: url("../fonts/sas-webfont.eot?51534236");
-  src: url("../fonts/sas-webfont.eot?51534236#iefix") format("embedded-opentype"), url("../fonts/sas-webfont.woff2?51534236") format("woff2"), url("../fonts/sas-webfont.woff?51534236") format("woff"), url("../fonts/sas-webfont.ttf?51534236") format("truetype"), url("../fonts/sas-webfont.svg?51534236#sas-webfont") format("svg"); */
+  src: url("../fonts/LouisVittaoFont.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -446,7 +443,7 @@ input,
 select,
 textarea {
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -740,7 +737,7 @@ ul li {
 }
 
 .font-primary {
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
 }
 
 .font-secondary {
@@ -802,7 +799,7 @@ blockquote.quote .blockquote-footer {
 }
 blockquote.quote cite {
   /*display: block;*/
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
   font-size: 15px;
   font-style: normal;
   color: #666666;
@@ -850,7 +847,7 @@ blockquote.quote cite {
 
 /* END OWL */
 .font-primary {
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
 }
 
 .bg-primary {
@@ -1245,9 +1242,9 @@ hr.content {
   color: #ffffff;
 }
 .btn-primary:hover {
-  background-color: #1a1a1a;
+  background-color: #953784;
   color: #ffffff;
-  border-bottom-color: #1a1a1a;
+  border-bottom-color: #953784;
 }
 
 .btn-secondary {
@@ -1349,7 +1346,7 @@ hr.content {
 SOSMED-ICON
 ============================= */
 .sosmed-icon a {
-  color: #702963;
+  color: #ffffff;
   background-color: transparent;
   width: 40px;
   height: 40px;
@@ -1362,7 +1359,7 @@ SOSMED-ICON
 }
 .sosmed-icon a:hover {
   /*color: $color-body;*/
-  color: #ffffff;
+  color: #702963;
 }
 .sosmed-icon.icon-bg-primary a {
   -webkit-border-radius: 4px;
@@ -4191,7 +4188,7 @@ Back To Top Section
 .topbar {
   background-color: #000000;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
   border-bottom: 1px solid #999999;
 }
 .topbar .row {
@@ -4241,7 +4238,7 @@ Back To Top Section
 .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 36px;
+  font-size: 0px;
 }
 
 .navbar-main {
@@ -4264,7 +4261,7 @@ Back To Top Section
   border-color: transparent;
 }
 .navbar-main .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(85, 22, 132, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-main .dropdown-toggle::after {
   margin-left: 0.6em;
@@ -4326,10 +4323,13 @@ Back To Top Section
   /*position: relative;*/
 }
 .header-1 .navbar-main {
-  background-color: #ffffff;
+  background-color: #222;
   width: 100%;
   /* END NAVBAR NAV */
   /* END STIKY */
+}
+.header-1 .navbar-main .navbar-brand {
+  padding: 20px 0px;
 }
 .header-1 .navbar-main .nav-link.active,
 .header-1 .navbar-main .active > .nav-link {
@@ -4339,7 +4339,7 @@ Back To Top Section
 }
 .header-1 .navbar-main .nav-link {
   font-family: "LouisVittao", serif;
-  color: #222;
+  color: #ffffff;
   font-weight: 700;
   padding: 1.5rem 1rem;
   background-color: transparent;
@@ -4358,7 +4358,7 @@ Back To Top Section
 }
 .header-1 .navbar-main.stiky {
   height: auto;
-  background-color: #ffffff;
+  background-color: #222;
   position: fixed;
   top: 0;
   right: 0;
@@ -5138,7 +5138,7 @@ Back To Top Section
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
 }
 .author-box .media-heading span {
   font-weight: 400;
@@ -5179,7 +5179,7 @@ Back To Top Section
 .comments-box .media-heading {
   color: #222;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "LouisVittao", sans-serif;
 }
 .comments-box .comments-box .media-left img {
   width: 100px;

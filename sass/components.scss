@@ -70,9 +70,9 @@
     border-bottom: 2px solid darken($color-primary, 10%);
     color: $white;
 	&:hover{
-		background-color: lighten($color-secondary, 10%);
+		background-color: lighten($color-primary, 10%);
     	color: $white;
-    	border-bottom-color: lighten($color-secondary, 10%);
+    	border-bottom-color: lighten($color-primary, 10%);
 	}
 }
 .btn-secondary {
@@ -170,7 +170,7 @@ SOSMED-ICON
 .sosmed-icon{
   
   a{
-    color: $color-primary;
+    color: $white;
     background-color: transparent;
     width: 40px;
     height: 40px;
@@ -182,7 +182,7 @@ SOSMED-ICON
     margin: 0;
     &:hover{
       /*color: $color-body;*/
-      color: $white;
+      color: $color-primary;
     }
     
   }

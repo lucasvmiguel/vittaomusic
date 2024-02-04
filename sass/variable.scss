@@ -1,9 +1,9 @@
 $font-primary : 'LouisVittao', sans-serif;
 $font-secondary : 'LouisVittao', serif;
-$font-tertiary : '', sans-serif;
+$font-tertiary : 'LouisVittao', sans-serif;
 $font-heading : $font-secondary;
 $font-icon: FontAwesome;
-$font-sas: 'sas-webfont';
+$font-sas: 'LouisVittao';
 
 
 $black: #222;
@@ -31,12 +31,12 @@ $topbar-font: $font-primary;
 /* -------------------- 
 NAVBAR SETTING
 -----------------------*/
-$navbar-bg: $white;
+$navbar-bg: $black;
 $navbar-font: $font-secondary;
-$navbar-color: $black;;
+$navbar-color: $white;
 $navbar-hover-color: $color-primary;
 $navbar-active-color: $color-primary;
-$navbar-bg-stiky: $white;
+$navbar-bg-stiky: $black;
 $navbar-stiky-color: $black;
 $navbar-stiky-active-color: $color-primary;
 
