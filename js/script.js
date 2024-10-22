@@ -86,7 +86,7 @@ $(document).ready(function(){
 	    loop: true,
 	    // margin: 10,
 	    autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 8000,
 	    nav: true,
 	    dots: false,
 	    animateIn: 'fadeIn',
@@ -133,7 +133,7 @@ $(document).ready(function(){
 	car_item_2.owlCarousel({
 		margin: 30,
 	    autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: true,
 		items : 3,
 		dots: true,
@@ -155,7 +155,7 @@ $(document).ready(function(){
 	car_item_3.owlCarousel({
 		margin: 30,
 	    autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: true,
 		items : 3,
 		dots: true,
@@ -177,7 +177,7 @@ $(document).ready(function(){
 	car_item_4.owlCarousel({
 		margin: 30,
 	    autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: true,
 		items : 4,
 		dots: true,
@@ -199,7 +199,7 @@ $(document).ready(function(){
 	car_item_1.owlCarousel({
 		margin: 0,
 	    autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: true,
 		items : 1,
 		dots: true,
@@ -209,7 +209,7 @@ $(document).ready(function(){
 	whoweare.owlCarousel({
 		margin: 0,
 	    autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: true,
 		items : 1,
 		dots: true,

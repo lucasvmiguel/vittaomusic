@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+/images/.DS_Store
+
+# env files
+.env
+.env.*
+
+# log
+*.log
+npm-debug.log
+
+# cache
+.eslintcache
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# API dev
+/dev/node_modules
+/dev/dist
+/dev/coverage
+
+# SonarQube
+/.scannerwork
